@@ -1,0 +1,11 @@
+version: '3'
+services:
+  egg-nano-test:
+    container_name: egg-nano-test
+    image: node:8.1.4-alpine
+    volumes:
+      - .:/usr/src/app
+    working_dir: /usr/src/app
+    command: npm run dev
+    ports:
+      - 7001:7001
