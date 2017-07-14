@@ -1,6 +1,7 @@
 # nano-test
 
-
+## 相关Bug报告
+[docker容器内调用nanomsg库失败 #1188](https://github.com/eggjs/egg/issues/1188)
 
 ## QuickStart
 
